@@ -143,8 +143,3 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 });
 
-let randomLinkButton = document.getElementById("randomLinkButton");
-
-randomLinkButton.addEventListener("click", function(event) {
-    event.preventDefault(); 
-});
