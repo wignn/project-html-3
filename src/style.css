@@ -48,6 +48,12 @@
     padding: 20px;
     text-align: center;
   }
+#randomLinkButton {
+  pointer-events: none; 
+  cursor: not-allowed; 
+  opacity: 0.5; /
+}
+
 
   .content h2 {
     margin-bottom: 20px;
