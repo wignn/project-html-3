@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Library</title>
+  <link rel="website icon" type="png" href="asset/js.png">
+  <link rel="stylesheet" href="src/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body class="badan">
+  <header class="header text-center text-white py-5">
+    <h1 class="site-name">Ngawi</h1>
+    <p class="subheading">505</p>
+  </header>
+
+  <!-- nav -->
+  <div class="bar" id="navbar">
+    <h5> </h5>
+    <!-- <img src="" alt=""> -->
+    <div class="nav-links">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="Novel.html" onclick="showSection('ALL')">Series</a></li>
+        <li><a id="randomLinkButton">Finder</a></li>
+      </ul>
+    </div>
+    <div id="search-container">
+      <input type="text" id="search-bar" list="search-options" placeholder="Search">
+      <datalist id="search-options"></datalist>
+      <div id="search-results"></div>
+    </div>
+  </div>
+
+  <!-- nav end -->
+
+
+  <!-- TOP -->
+  <main class="content container my-4">
+    <h2 class="text-center">Welcome</h2>
+    <section class="kartus">
+      <div class="kartu">
+        <img src="asset/AR.jpg" alt="kartu Image">
+        <h3>"Hitler Mati Di Indonesia"</h3>
+        <p>MankGarox - Design</p>
+      </div>
+
+      <div class="kartu">
+        <img src="asset/ybbkoiqyprr71 (1).jpg" alt="kartu Image">
+        <h3>"Little Prince"</h3>
+        <br>
+        <p>Othinus - Dev</p>
+      </div>
+
+      <div class="kartu">
+        <img src="asset/Irul.jpg" alt="kartu Image">
+        <h3>"The Angel Next Door"</h3>
+        <br>
+        <p>facilito - Design</p>
+      </div>
+
+      <div class="kartu">
+        <img src="asset/DN.jpg" alt="kartu Image">
+        <h3>"No Humans"</h3>
+        <br>
+        <p>Shinrai Kirin - Design</p>
+      </div>
+
+    </section>
+    <br>
+    <h2 class="text-center">Team</h2>
+    <p class="text-center">Selamat membaca</p>
+    <!-- TOP END -->
+
+    <!-- CARD -->
+    <div class="row">
+      <div class="col-6 col-sm-4 col-md-3 col-lg-3 mb-4">
+        <div class="card bg-dark text-white">
+          <img src="asset/M-C-1.jpg" class="card-img-top" alt="hikikomari-index.html">
+          <div class="card-body">
+            <h5 class="card-title">Modern Villainess: It’s Not Easy Building a Corporate Empire Before the Crash -
+              Volume 01</h5>
+            <p class="card-text">Drama, Economy, Comedy</p>
+            <a href="Modern Vilain/M-I-1.html" class="btn btn-secondary">Read</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 col-lg-3 mb-4">
+        <div class="card bg-dark text-white">
+          <img src="asset/M-C-2.jpg" class="card-img-top" alt="hikikomari-index.html">
+          <div class="card-body">
+            <h5 class="card-title">Modern Villainess: It’s Not Easy Building a Corporate Empire Before the Crash - Volume 02</h5>
+            <p class="card-text">Drama, Economy, Comedy, </p>
+            <a href="Modern Vilain/M-I-2.html" class="btn btn-secondary">Read</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 col-lg-3 mb-4">
+        <div class="card bg-dark text-white">
+          <img src="asset/M-C-3.jpg" class="card-img-top" alt="">
+          <div class="card-body">
+            <div class="title">
+              <h5 class="card-title">Modern Villainess: It’s Not Easy Building a Corporate Empire Before the Crash - Volume 03</h5>
+              <p class="card-text">Drama, Economy, Comedy</p>
+            </div>
+            <a href="Modern Vilain/M-I-3.html" class="btn btn-secondary">Read</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 col-lg-3 mb-4">
+        <div class="card bg-dark text-white">
+          <img src="asset/M-C-4.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <div class="title">
+              <h5 class="card-title">Modern Villainess: It’s Not Easy Building a Corporate Empire Before the Crash - Volume 04</h5>
+              <p class="card-text">Drama, Economy, Comedy</p>
+            </div>
+            <a href="Modern Vilain/M-I-4.html" class="btn btn-secondary">Read</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tambahkan kartu buku baru di sini -->
+
+      <div class="col-6 col-sm-4 col-md-3 col-lg-3 mb-4">
+        <div class="card bg-dark text-white">
+          <img src="asset/OFP-C-1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <div class="title">
+              <h5 class="card-title">Omniscient First-Person’s Viewpoint</h5>
+              <p class="card-text">Action, Adventure, Comedy, Fantasy, Harem, Mystery, Supernatural</p>
+            </div>
+            <a href="OFP/OFP-I-1.html" class="btn btn-secondary">Read</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 col-lg-3 mb-4">
+        <div class="card bg-dark text-white">
+          <img src="asset/HTSA-C-1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <div class="title">
+              <h5 class="card-title">The Extra’s Academy Survival Guide</h5>
+              <p class="card-text">Action, Adventure, Drama, Fantasy, Harem, Romance, School Life, Supernatural</p>
+            </div>
+            <a href="Survival guide/TASG-I-1.html" class="btn btn-secondary">Read</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 col-lg-3 mb-4">
+        <div class="card bg-dark text-white">
+          <img src="asset/DPA-C-1.jpeg" class="card-img-top" alt="">
+          <div class="card-body">
+            <h5 class="card-title">The Demon Prince Goes to the Academy</h5>
+            <p class="card-text">Action, Adventure, Drama, Fantasy, Harem, Romance, School Life, Shounen</p>
+            <a href="Demon prince/DPA-C-I.html" class="btn btn-secondary">Read</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 col-lg-3 mb-4">
+        <div class="card bg-dark text-white">
+          <img src="asset/IABM-I-1.jpg" class="card-img-top" alt="">
+          <div class="card-body">
+            <h5 class="card-title">I Am This Murim’s Crazy B*tch</h5>
+            <p class="card-text">Action, Adventure, Comedy, Drama, Gender Bender, Martial Arts, Wuxia</p>
+            <a href="Murim’s Crazy/IAMB-I-1.html" class="btn btn-secondary">Read</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 col-lg-3 mb-4">
+        <div class="card bg-dark text-white">
+          <img src="asset/SOS-C-1.png" class="card-img-top" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Seoul Object Story</h5>
+            <p class="card-text">Action, Adventure, Fantasy, Gender Bender, Psychological, Sci-fi, Slice of Life,
+              Supernatural</p>
+            <a href="Seoul/SOS-I-1.html" class="btn btn-secondary">Read</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 col-lg-3 mb-4">
+        <div class="card bg-dark text-white">
+          <img src="asset/TPOC-C-1.png" class="card-img-top" alt="">
+          <div class="card-body">
+            <h5 class="card-title">The Priest of Corruption</h5>
+            <p class="card-text">Action, Adventure, Drama, Fantasy, Harem, Shounen</p>
+            <br>
+            <br>
+            <a href="The priest/TPOC-I-1.html" class="btn btn-secondary">Read</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 col-lg-3 mb-4">
+        <div class="card bg-dark text-white">
+          <img src="asset/AND-C-8.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">The Angel Next Door Spoils Me Rotten</h5>
+            <p class="card-text">Comedy, Romance, School Life, Slice of Life</p>
+            <br>
+            <a href="Anggel Next Door/TAND-I-1.html" class="btn btn-secondary">Read</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 col-lg-3 mb-4">
+        <div class="card bg-dark text-white">
+          <img src="asset/MAP-C-1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">The Magic Academy’s Physicist</h5>
+            <p class="card-text">Action, Adventure, Comedy, Fantasy, Gender Bender</p>
+            <a href="Academy’s Physicist/TMAP-I-1.html" class="btn btn-secondary">Read</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- CARD END -->
+  </main>
+<!-- Foot -->
+  <footer class="footer bg-dark text-white text-center py-3">
+    <ul class="list-inline">
+      <li class="list-inline-item"><a href="https://www.facebook.com/profile.php?id=100032866124500&sk=about"class="text-white">Facebook</a></li>
+      <li class="list-inline-item"><a href="https://discord.gg/2yFFdb69"class="text-white">Discord</a></li>
+      <li class="list-inline-item"><a href="https://wa.me/+6282122215166" class="text-white">Whatsapp</a></li>
+    </ul>
+  </footer>
+<!-- Foot End-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+  <script src="src/script.js"></script>
+  <script src="src/loadScript.js"></script> 
+</body>
+
+</html>

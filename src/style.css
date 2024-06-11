@@ -1,0 +1,466 @@
+  .badan {
+    background-color: #333;
+    color: #fff;
+    font-family: sans-serif;
+    margin: 0;
+
+  }
+  
+  .header {
+    background-image: url("../asset/Dusk.png");
+    background-position: center top;
+    background-size: cover;
+    background-position: 0;
+    background-position: center;
+    padding: 10px;
+    text-align: center;
+    height: 275px
+  }
+  
+  .header h1 {
+    margin: 0;
+  }
+  .selected {
+    background-color: #ddd;
+  }
+  
+  .header .site-name {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .header .subheading {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .autocomplete-item {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .autocomplete-item:hover {
+    background-color: #f0f0f0;
+  }
+  .content {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .content h2 {
+    margin-bottom: 20px;
+  }
+
+  .kartus {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .kartu {
+    background-color: #444;
+    padding: 10px;
+    border-radius: 10px;
+    width: 220px;
+    
+  }
+  .card {
+    margin-bottom: 40px !important;
+    height: 200px;
+  }
+  .card {
+    padding-bottom: 0px;
+  }
+  
+  .card {
+    min-height: 100%; /* Ensure all cards have the same height */
+  }
+
+  .kartu img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .kartu h3 {
+    margin-bottom: 5px;
+  }
+  
+  .footer {
+    background-color: #222;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footer li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 768px) {
+    .kartus {
+      flex-direction: colum;
+      align-items: center;
+    }
+  
+    .header .site-name {
+      font-size: 1.5em;
+    }
+  
+    .header .subheading {
+      font-size: 1em;
+    }
+    .card-body {
+      font-size: 0.8rem;
+    }
+    .card-title {
+      font-size: 1rem;
+    }
+    .card-text {
+      font-size: 0.8rem;
+    }
+  }
+  /*  */
+  .content-section {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  .content-section.active {
+    display: block;
+    opacity: 1;
+    
+  }
+  .category-buttons {
+    text-align: center;
+    margin: 20px 0;
+  }
+  .category-buttons button {
+    margin: 5px;
+  }
+
+  .img_no {
+    max-width: 20%;
+    height: 20%;
+    float: left;
+    border-radius: 5px;
+    margin-left: 20px;
+  }
+
+  .container {
+    overflow: hidden;
+    margin-left: 20px;
+}
+.container-text{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.text-right {
+    overflow: hidden;
+    padding-left: 10px;
+    }
+
+  #search {
+    margin-left: 0px;
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+  }
+  /* #search-bar {
+
+    text-align: center;    
+  } */
+
+  /* I-N */
+
+  .info {
+    flex: 1;
+
+  }
+
+  .info h2 {
+    margin-bottom: 10px;
+  }
+
+  .info p {
+    margin-bottom: 5px;
+  }
+
+  .info a {
+    color: blue;
+    text-decoration: none;
+  }
+
+  .info a:hover {
+    text-decoration: underline;
+  }
+
+  .container-C {
+    width: 90%;
+    margin: 0 auto;
+    text-align: left;
+  }
+
+  h1 {
+    margin-top: 20px;
+  }
+
+  .breadcrumb {
+    margin-top: 20px;
+  }
+
+  .breadcrumb a {
+    color: #333;
+    text-decoration: none;
+  }
+
+  .breadcrumb a:hover {
+    text-decoration: underline;
+  }
+
+  .content-C {
+    display: flex;
+    margin-top: 20px;
+  }
+  /* I-N END */
+  .recommendations a{
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.category-buttons button{
+  background-color: #333; color: #fff; width: 100px;
+
+}
+
+.image img {
+  width: 90%; border-radius: 5px;
+}
+@media (max-width: 600px) {
+  .kartus {
+      justify-content: space-around;
+  }
+  .kartu {
+      width: calc(50% - 20px);
+
+  }
+  .info {
+    font-size: 4px;
+  }
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  
+}
+
+.card-text {
+  flex: 1; 
+}
+
+.title {
+  margin-bottom: 40px !important;
+
+}
+
+
+/* nav */
+.bar {
+  position: sticky;
+  top: 0;
+  background-color: #444;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-links ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-links li {
+  margin: 0 10px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+ 
+}
+
+#search-container {
+  display: flex;
+  align-items: center;
+}
+
+#search-bar {
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#search-results {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  top: 100%;
+  left: 0;
+}
+
+#search-results a {
+  padding: 12px 16px;
+  display: block;
+  text-align: left;
+  text-decoration: none;
+  color: #333;
+}
+
+#search-results a:hover {
+  background-color: #ddd;
+}
+
+@media (max-width: 600px) {
+  .bar {
+    padding: 5px; 
+    gap: 5px;
+  }
+
+.bar img {
+  width: 5px;
+  height: 5px;
+}
+
+  .nav-links li {
+    margin: 0 5px;
+    font-size: 14px; 
+  }
+
+  .nav-links a {
+    font-size: 14px;
+   
+  }
+
+  #search-bar {
+    padding: 2px;
+    height: 50%;
+    width: 80%; 
+    margin-left: 20px;
+  }
+
+  #search-results a {
+    padding: 10px; 
+    
+}
+.bar a {
+  font-size: 14px;
+
+}
+
+}
+/* nav end */
+
+
+/* cover */
+.image img {
+  width: 300px;
+  margin-right: 20px;
+}
+
+.recommendations a {
+  list-style: none;
+  text-decoration: none;
+  color: #fff;
+}
+
+
+
+/* laya hp bagian cover */
+@media (max-width: 768px) {
+  .container-C {
+    width: 95%; 
+  }
+
+  .content-C {
+    flex-direction: column; /* Display content in a single column on mobile */
+  }
+  .image {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 20px;
+  }
+  .image img {
+    width: 50%;
+  }
+  .info h5 {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 5px;
+  }
+
+  .info p {
+    font-size: 14px; }
+  .recommendations h5{
+     font-size: 14px;
+    }
+    .recommendations a {
+      font-size: 14px;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+  .footer a {
+    font-size: 14px; /* Mengurangi ukuran teks tautan */
+  }
+}
